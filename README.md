@@ -1,3 +1,18 @@
+# Todo list - React Redux
+
+A simple todo list app where a user can: 
+- Add a new todo
+- Edit a todo
+- Delete a todo
+- Check todo if done
+- Show done todos, not done and All todos
+
+Redux state managment library is used to manage state.
+
+### What need to be added/updated 
+
+Use Redux toolkit instead of old Redux 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
