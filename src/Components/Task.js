@@ -2,7 +2,8 @@ import { useState } from 'react';
 
 const Task = (props) => {
     const [title, setTitle] = useState(props.todo.description);
-    const [completed, setComplete] = useState(props.todo.isDone);
+    //const [completed, setComplete] = useState(props.todo.isDone);
+    const completed = props.todo.isDone;
     //const [checked, setCheck] = useState(false);
 
     const handleComplete = () => {
